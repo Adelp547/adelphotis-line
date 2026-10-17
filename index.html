@@ -62,18 +62,4 @@
   </div>
 </div>
 
-<script>
-let todosProdutos = JSON.parse(localStorage.getItem('adelProdutos')) || [
-  {nome:'iPhone 12 Pro', preco:350000, cat:'telemoveis', zap:'923000000', img:'https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=400'},
-  {nome:'Toyota Corolla 2015', preco:6500000, cat:'carros', zap:'923000000', img:'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400'},
-  {nome:'Ténis Nike Air', preco:25000, cat:'roupas', zap:'923000000', img:'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400'},
-  {nome:'Sofá 3 Lugares', preco:120000, cat:'casa', zap:'923000000', img:'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400'},
-];
-
-function mostrar(lista){
-  const div = document.getElementById('produtos');
-  div.innerHTML = '';
-  lista.forEach(p=>{
-    div.innerHTML += `
-    <div class="bg-white rounded-xl shadow p-2">
-      <img src="${p.img || 'https://via
+<
